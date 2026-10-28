@@ -1,22 +1,64 @@
-<html>
+<!DOCTYPE html>
+<html lang="it">
 <head>
-    <title>Sistema Informativo- Haxhini,Marcone,Pietroniro</title>
+    <meta charset="UTF-8">
+    <title>Sistema Informativo - Haxhini, Marcone, Pietroniro</title>
 </head>
 <body>
-<h1 style="text-align: center;">Sistema Informativo</h1>
-<h2>Perche e un sistema distributo </h2>
-<p>I sistemi distribuiti informativi servono a raccogliere, elaborare, conservare e condividere informazioni tra più elaboratori collegati in rete  operando in modo distribuito per superare i limiti di un'architettura centralizzata. Questo assetto distribuisce l'elaborazione e lo storage su nodi indipendenti, eliminando i singoli punti di guasto per garantire continuità di servizio. La separazione fisica delle risorse ottimizza le prestazioni tramite il bilanciamento del carico, assicura la scalabilità orizzontale del sistema e offre trasparenza d'uso, nascondendo la complessità della rete e agendo come un unico elaboratore virtuale per l'utente finale.</p>
+
+    <h1 style="text-align: center;">Sistema Informativo</h1>
+    <p style="text-align: center; font-style: italic;">Gruppo 4: Haxhini, Marcone, Pietroniro</p>
+
+  
+    <h2>Perché è un sistema distribuito</h2>
+    <p>I sistemi distribuiti informativi servono a raccogliere, elaborare, conservare e condividere informazioni tra più elaboratori collegati in rete operando in modo distribuito per superare i limiti di un'architettura centralizzata. Questo assetto distribuisce l'elaborazione e lo storage su nodi indipendenti, eliminando i singoli punti di guasto per garantire continuità di servizio. La separazione fisica delle risorse ottimizza delle prestazioni tramite il bilanciamento del carico, assicura la scalabilità orizzontale del sistema e offre trasparenza d'uso, nascondendo la complessità della rete e agendo come un unico elaboratore virtuale per l'utente finale.</p>
+
+    <h2>Funzionamento: Come lavora?</h2>
+    <p>Il sistema lavora sfruttando la cooperazione tra i diversi nodi della rete:</p>
+    <ul>
+        <li><strong>Architettura:</strong> Si basa su modelli Client-Server o strutture multi-livello (interfaccia, logica applicativa e database).</li>
+        <li><strong>Interazione:</strong> I nodi comunicano scambiandosi messaggi e dati tramite protocolli standard (es. HTTP, API) e middleware.</li>
+        <li><strong>Utenti e Rete:</strong> Gli utenti accedono tramite interfacce web. Un sistema di bilanciamento del carico (load balancing) smista le richieste sul server più libero.</li>
+    </ul>
+
+    
+    <h2>Vantaggi: Perché viene utilizzato?</h2>
+    <ul>
+        <li><strong>Scalabilità orizzontale:</strong> Si possono aggiungere nuovi server economici per aumentare la potenza senza cambiare tutto l'hardware.</li>
+        <li><strong>Alta affidabilità:</strong> Non essendoci un unico punto di guasto, se un nodo smette di funzionare gli altri assorbono il suo carico.</li>
+        <li><strong>Efficienza:</strong> L'elaborazione parallela e la vicinanza dei nodi agli utenti riducono i tempi di attesa.</li>
+    </ul>
+
+    
+    <h2>Limiti e Criticità</h2>
+    <ul>
+        <li><strong>Consistenza dei dati:</strong> Sincronizzare tutti i database in tempo reale senza creare conflitti è molto complesso.</li>
+        <li><strong>Sicurezza:</strong> Avendo molti punti di acesso e dati sempre in viaggio sulla rete, aumenta il rischio di attacchi informatici.</li>
+        <li><strong>Complessità:</strong> Lo sviluppo e il monitoraggio di software distribuito richiedono competenze tecniche elevate.</li>
+    </ul>
 
 
+    <h2>Ambiti di utilizzo</h2>
+    <ul>
+        <li><strong>Aziende:</strong> Nei sistemi ERP e CRM per coordinare sedi e magazzini dislocati in tutto il mondo.</li>
+        <li><strong>Ricerca:</strong> Nelle banche dati scientifiche condivise e reti universitarie.</li>
+        <li><strong>Vita quotidiana:</strong> Nelle piattaforme di e-commerce (Amazon), nell'home banking e nei servizi di streaming (Netflix).</li>
+    </ul>
+
+    
+    <h2>Esempio reale</h2>
+    <p>Il <strong>Sistema Informativo Bancario di un grande gruppo creditizio</strong>. Ogni filiale sul territorio gestisce le operazioni locali immediate (es. sportelli bancomat), ma comunica costantemente con i data center centrali per bonifici o controlli antifrode. Se una filiale va offline per un blackout, il sistema devia le richieste sui nodi vicini, garantendo l'accesso ai conti senza interruzioni per il cliente.</p>
 
 
+    <h2>Bibliografia e Sitografia</h2>
+    <ul>
+        <li>A. S. Tanenbaum, M. Van Steen - <em>Sistemi distribuiti. Principi e paradigmi</em>.</li>
+        <li>Wikipedia - Voci relative a "Sistema informativo" e "Sistema distribuito".</li>
+    </ul>
 
 
-
-
-
-
-
+    <h3>Sviluppo e Collaborazione</h3>
+    <p>Link al progetto: <a href="https://github.com" target="_blank">Repository GitHub del Gruppo 4</a></p>
 
 </body>
 </html>
